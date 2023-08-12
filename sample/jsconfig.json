@@ -5,7 +5,9 @@
         "moduleResolution": "Node",
         "target": "ES2020",
         "strictNullChecks": true,
-        "strictFunctionTypes": true
+        "strictFunctionTypes": true,
+        "emitDeclarationOnly": true,
+        "noEmit": false
     },
     "include": [".eslintrc.cjs"]
 }
