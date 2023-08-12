@@ -22,7 +22,7 @@ const config = {
   singleAttributePerLine: false,
   useTabs: false,
   tabWidth: 2,
-  printWidth: 80
+  printWidth: 80,
 };
 
 module.exports = config;
