@@ -9,7 +9,8 @@
     "lint": "prettier . --write && eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "npm run lint && storybook build"
+    "build-storybook": "npm run lint && storybook build",
+    "preview-storybook": "vite preview --outDir storybook-static"
   },
   "dependencies": {
     "react": "^18.2.0",
