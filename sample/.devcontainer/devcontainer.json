@@ -16,7 +16,8 @@
 				"dbaeumer.vscode-eslint",
 				"SonarSource.sonarlint-vscode",
 				"mhutchie.git-graph",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"esbenp.prettier-vscode"
 			]
 		}
 	},
