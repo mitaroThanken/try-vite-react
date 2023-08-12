@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   env: { es2020: true },
-  extends: ["eslint:recommended"],
+  extends: ["eslint:recommended", "plugin:prettier/recommended"],
   ignorePatterns: ["dist", "storybook-static"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -25,6 +25,7 @@ module.exports = {
         "plugin:react/jsx-runtime",
         "plugin:react-hooks/recommended",
         "plugin:storybook/recommended",
+        "plugin:prettier/recommended",
       ],
       parser: "@typescript-eslint/parser",
       parserOptions: {
