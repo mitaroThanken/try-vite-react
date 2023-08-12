@@ -17,8 +17,12 @@
 				"SonarSource.sonarlint-vscode",
 				"mhutchie.git-graph",
 				"eamodio.gitlens",
-				"esbenp.prettier-vscode"
-			]
+				"esbenp.prettier-vscode",
+				"EditorConfig.EditorConfig"
+			],
+			"settings": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
 		}
 	},
 
